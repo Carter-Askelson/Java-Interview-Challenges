@@ -16,6 +16,9 @@ import com.challenges.problems.AnagramGenerator;
 import com.challenges.problems.PalindromeDetector;
 import com.challenges.problems.CaesarCipher;
 import com.challenges.problems.DuplicateListFinder;
+import com.challenges.problems.ZeroSorter;
+import com.challenges.problems.FizzBuzz;
+import com.challenges.problems.GreatestCommonFactor;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
@@ -39,8 +42,24 @@ public class JavaCodingChallengesApplication {
 		//ArrayList <Integer> newlist = DataStructures.createList(1,1,2,2,2,2,2,2,3,3,3,3,3,4);
 		//System.out.println(DuplicateListFinder.DuplicateListFinder(newlist));
 		//AnagramGenerator.AnagramGenerator("Church");
-			
-			
+//		long startTimeSlow = System.currentTimeMillis();
+//	    String slowSorted = ZeroSorter.SlowZeroSorter(new ArrayList<>(DataStructures.createList(0, 1, 2, 3, 5, 0, 0, 0, 5, 4, 4, 698, 1, 6, 5, 0, 0, 0, 60, 1, 0, 0, 1, 2, 3,0, 1, 2, 3, 5, 0, 0, 0, 5, 4, 4, 698, 1, 6, 5, 0, 0, 0, 60, 1, 0, 0, 1, 2, 3,0, 1, 2, 3, 5, 0, 0, 0, 5, 4, 4, 698, 1, 6, 5, 0, 0, 0, 60, 1, 0, 0, 1, 2, 3))); // Create a copy to preserve the original list
+//	    long endTimeSlow = System.currentTimeMillis();
+//	    long executionTimeSlow = endTimeSlow - startTimeSlow;
+//
+//	    System.out.println("SlowZeroSorter Result: " + slowSorted);
+//	    System.out.println("SlowZeroSorter Execution Time: " + executionTimeSlow + " milliseconds");
+//
+//	    // Measure and print the execution time of FastZeroSorter
+//	    long startTimeFast = System.currentTimeMillis();
+//	    String fastSorted = ZeroSorter.FastZeroSorter(new ArrayList<>(DataStructures.createList(0, 1, 2, 3, 5, 0, 0, 0, 5, 4, 4, 698, 1, 6, 5, 0, 0, 0, 60, 1, 0, 0, 1, 2, 3,0, 1, 2, 3, 5, 0, 0, 0, 5, 4, 4, 698, 1, 6, 5, 0, 0, 0, 60, 1, 0, 0, 1, 2, 3,0, 1, 2, 3, 5, 0, 0, 0, 5, 4, 4, 698, 1, 6, 5, 0, 0, 0, 60, 1, 0, 0, 1, 2, 3))); // Create a copy to preserve the original list
+//	    long endTimeFast = System.currentTimeMillis();
+//	    long executionTimeFast = endTimeFast - startTimeFast;
+//
+//	    System.out.println("FastZeroSorter Result: " + fastSorted);
+//	    System.out.println("FastZeroSorter Execution Time: " + executionTimeFast + " milliseconds");
+		//FizzBuzz.FizzBuzz();
+		//GreatestCommonFactor.GreatestCommonFactor(12,0);
 		}
 }
 
